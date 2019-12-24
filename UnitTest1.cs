@@ -18,5 +18,11 @@ namespace XUnitTestProject1
             Assert.Equal(16, sum);
         }
 
+        [Fact]
+        public void WhenSubtractingTwoNumbersThenSumIsCorrect()
+        {
+            var diff = 38 - 25;
+            Assert.Equal(13, diff);
+        }
     }
 }
