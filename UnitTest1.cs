@@ -10,5 +10,13 @@ namespace XUnitTestProject1
         {
             Assert.True(true);
         }
+
+        [Fact]
+        public void WhenAddingTwoNumbersThenSumIsCorrect()
+        {
+            var sum = 7 + 9;
+            Assert.Equal(16, sum);
+        }
+
     }
 }
