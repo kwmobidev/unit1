@@ -24,5 +24,12 @@ namespace XUnitTestProject1
             var diff = 38 - 25;
             Assert.Equal(13, diff);
         }
+
+        [Fact]
+        public void WhenMultiplyingTwoNumbersThenProductIsCorrect()
+        {
+            var product = 7 * 9;
+            Assert.Equal(63, product);
+        }
     }
 }
